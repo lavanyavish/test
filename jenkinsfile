@@ -9,7 +9,7 @@ pipeline {
         }
         stage('build') {
             steps {
-                echo 'building'
+                echo 'building process'
             }
         }
         stage('test') {
@@ -24,7 +24,7 @@ pipeline {
         }
         stage('release') {
             steps {
-                echo 'Releasing soon'
+                echo 'Releasing'
             }
         }
     }
